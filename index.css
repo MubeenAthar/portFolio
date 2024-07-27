@@ -1,0 +1,227 @@
+
+ul.headeri {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(116, 116, 236);
+}
+
+.headeri {
+    border-radius: 5px;
+}
+
+ul.headeri li {
+    float: left;
+}
+
+ul.headeri li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.headeri li :hover {
+    background-color: black;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+}
+li.search-bar {
+ float: right;
+ padding-top: 10px;
+ margin-left: 810px;
+}
+.search-bar input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+.intro {
+    padding-left: 40px;
+    padding-top: 100px;
+    font-style: italic;
+    font-weight: bolder;
+    height: 100vh;
+    width: 40%;
+}
+
+h1.intro {
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+h3.intro {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 40%;
+}
+
+.pic img {
+    max-width: 70%;
+    max-height: 70%;
+    padding-bottom: 100px;
+    border-radius: 50%;
+}
+.ucp {
+    text-align: center; 
+    margin-top: 50px; 
+    padding-top: 250px;
+    font-size: large;
+    text-decoration: none;
+    color: black;
+}
+.ucp a {
+    text-decoration: none; 
+}
+.ucp button {
+    padding: 10px 20px;
+    font-size: 16px; 
+    cursor: pointer; 
+    background-color:  rgb(116, 116, 236);
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+}
+.ucp button:hover {
+    background-color: black; 
+}
+a {
+
+    color: black;
+}
+h1.con {
+    font-size: x-large;
+    font-weight: bolder;
+}
+p.con
+{
+    font-size:medium;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+.con {
+    text-align: center;
+    padding: 20px;
+}
+.contact-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+}
+.contact-info {
+    max-width: 300px;
+    background-color: rgb(188, 183, 183);
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.contact-info p {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 10px;
+}
+form {
+    max-width: 600px;
+    padding: 20px;
+    background-color: rgb(188, 183, 183);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+fieldset {
+    border: none;
+    padding: 0;
+}
+legend {
+    font-size: 24px;
+    color: black;
+    margin-bottom: 10px;
+}
+.form {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: black;
+}
+input[type="text"], input[type="email"], input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button {
+    background-color: rgb(116, 116, 236);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+button:hover {
+    background-color: black;
+}
+.subjects{
+    width: 70%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-left: 175px;
+    padding-top: 100px;
+}
+.image img{
+width: 100%;
+height: 50vh;
+border-radius: 10px;
+border: 2px solid black;
+transition: all ease-in-out 2s;
+aspect-ratio: 3/2;
+}
+.image img:hover{
+    width: 200%;
+    transform: scale(1.5);
+}
+.head{  
+    text-align: center;
+    padding-top: 15px;
+    background-image: linear-gradient(red,rgb(116, 116, 236) );
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+
+}
+h1.head{
+    font-weight: bolder;
+    font-size: 150px;
+}
+
